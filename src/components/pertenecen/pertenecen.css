@@ -1,0 +1,88 @@
+.containerEmpresas{
+    height: 45rem;
+}
+.headEmpresas{
+    width: 100%;
+    height: 20%;
+    text-align: center;
+    color: #008EBA;
+    font-size: 5rem;
+    font-weight: 700;
+    font-family: 'Poppins';
+    font-style: normal;
+    padding-top: 2%;
+}
+.carrusel-contenido {
+	width: 100%;
+	margin: auto;
+	overflow: hidden;
+}
+.carrusel-contenido ul {
+	display: flex;
+	padding: 0;
+	width: 200%;
+	animation: cambio 5s infinite alternate linear;
+    padding-inline-start: 0%;
+}
+.carrusel-contenido li {
+	width: 100%;
+	list-style: none;
+    display: flex;
+    align-items: center;
+}
+.imgElement1{
+    width: 252px;
+    height: 142px;
+    padding-inline: 2%;
+}
+.imgElement2{
+    width: 260px;
+    height: 114px;
+    padding-inline: 2%;
+}
+.imgElement3{
+    width: 368px;
+    height: 192px;
+    padding-inline: 2%;
+}
+.imgElement4{
+    width: 177px;
+    height: 141px;
+    padding-inline: 2%;
+}
+.imgElement5{
+    width: 212px;
+    height: 81px;
+    padding-inline: 2%;
+}
+.imgElement6{
+    width: 249px;
+    height: 203px;
+    padding-inline: 5%;
+}
+.imgElement7{
+    width: 233px;
+    height: 128px;
+    padding-inline: 3%;
+}
+.imgElement8{
+    width: 358px;
+    height: 358px;
+    padding-inline: 2%;
+}
+@keyframes cambio {
+	0% {margin-left: 0;}
+	18% {margin-left: 0;}
+	
+	20% {margin-left: -20%;}
+	38% {margin-left: -20%;}
+	
+	40% {margin-left: -50%;}
+	58% {margin-left: -50%;}
+	
+	60% {margin-left: -75%;}
+	78% {margin-left: -75%;}
+
+    80% {margin-left: -100%;}
+	100% {margin-left: -100%;}
+}

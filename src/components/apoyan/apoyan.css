@@ -1,0 +1,53 @@
+.containerAyudan{
+    background-color: white;
+    display: flex;
+    height: 240px;
+    width: 100%;
+    align-items: center;
+}
+.headerAyudan{
+    color: #008EBA;
+    font-size: 3.5rem;
+    font-weight: 700;
+    font-family: 'Poppins';
+    font-style: normal;
+}
+.leftAyudan{
+    width: 20%;
+    text-align: center;
+}
+.rightAyudan{
+    width: 80%;
+    text-align: center;
+}
+.imgPresidencia{
+    padding-inline: 5rem;
+}
+@media (max-width: 858px) {
+    .containerAyudan{
+        display: block;
+        height: 394px;
+    }
+    .headerAyudan{
+        width: 375px;
+        padding-top: 10%;
+    }
+    .rightAyudan{
+        padding-bottom: 10%;
+        padding-top: 10%;
+        width: 100%;
+    }
+    .imgPresidencia{
+        padding-inline-start: 0%;
+        padding-top: 10%;
+        padding-bottom: 10%;
+        width: 264px;
+        height: 54px;
+        padding-inline: 0;
+    }
+    .imgSENA{
+        width: 251px;
+        height: 54px;
+    }
+
+}

@@ -1,0 +1,97 @@
+.containerFooter{
+    width: 100%;
+    height: 15rem;
+    background: #00739D;
+    display: flex;
+}
+.leftFooter{
+    width: 32%;
+    text-align: center;
+    align-self: center;
+}
+.centerFooter{
+    width: 28%;
+    text-decoration:inherit;
+    align-items: center;
+    align-self: center;
+    cursor: pointer;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-size: 2.5rem;
+    line-height: 24px;
+    /* identical to box height */
+    
+    text-decoration-line: underline;
+    
+    color: #FFFFFF;
+}
+.rigthFooter{
+    width:40%;
+    display: flex;
+    align-self: center;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 4rem;
+    line-height: 30px;
+
+    color: #FFFFFF;
+}
+.rigthFooter a{
+    margin-left: 5%;
+}
+.imgFooterInstagram{
+    margin-left: 5%;
+    width: 46px;
+    height: 46px;
+    cursor: pointer;
+}
+.imgFooterWpp{
+    width: 46px;
+    height: 46px;
+    margin-left: 5%;
+    cursor: pointer;
+}
+.mainTyCFooter{
+    text-decoration:inherit;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-size: 2.5rem;
+    color: #FFFFFF;
+}
+@media (max-width: 858px) {
+    .containerFooter{
+        display: block;
+        text-align: center;
+        height: 34.8rem;
+    }
+    .leftFooter{
+        width: 100%;
+        padding-top: 5%;
+    }
+    .centerFooter{
+        width: 100%;
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+    .rigthFooter{
+        width: 100%;
+        display: block;
+    }
+    .imgSagyFooter{
+        width: 21.8rem;
+        height: 7.9rem;
+    }
+    .msjFooter{
+        padding-top: 5%;
+        padding-bottom: 5%;
+    }
+    .imgFooterWpp{
+        padding-bottom: 5%;
+        margin-left: 0%;
+    }
+    .imgFooterInstagram{
+        padding-bottom: 5%;
+        margin-left: 0%;
+    }
+}

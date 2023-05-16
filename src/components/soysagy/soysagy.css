@@ -1,0 +1,149 @@
+.soySagy{
+    width: 100%;
+    height: 61rem;
+    background: #008EBA;
+
+}
+.contenedorSoySagy{
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin: auto;
+}
+.container{
+    width: 92%;
+    max-width: 130rem;
+}
+.imagenesHeader {
+    width: 50%;
+}
+.imgSoySagy{
+    /*filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));*/
+    width: 67.4rem;
+}
+.questionSoySagy{
+    min-height: 45rem;
+    font-family: 'Poppins';
+    font-weight: 540;
+    font-size: 5rem;
+    line-height: 5.5rem;
+    color: #FFFFFF;
+}
+.chatSoySagy{
+    position: absolute;
+    width: 51rem;
+    height: 15rem;
+    color: #00729A;
+    bottom: 20%;
+}
+.headerText{
+    position: relative;
+    font-family: 'Poppins';
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 100%;
+    left:15%;
+}
+.bodyText{
+    position: relative;
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 100%;
+    left:15%;
+}
+.imgChathomeR{
+    display: none;
+}
+.imgChathome{
+    position: absolute;
+    width: 584px;
+    height: 154px;
+    top: -27px;
+    left:6%;
+}
+.buttonSoySagyTeCuento{
+    position:relative;
+    margin: auto;
+    display: flex;
+    background-color: #00B27A;
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+    font-size: 3.2rem;
+    font-weight: 1000;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    padding: 0.8rem 1.8rem;
+    top: -14.5%;
+}
+.buttonSoySagyTeCuento:hover{
+    background-color: #00729A;
+}
+@media (max-width: 858px) {
+    .soySagy{
+        height: 734px;
+        background: #008EBA;
+    }
+    .contenedorSoySagy{
+        display:block;
+        align-items: center;
+        position: relative;
+        margin: auto;
+    }
+    .container{
+        width: 95%;
+        max-width: 1600px;
+    }
+    .questionSoySagy{
+        min-height: 0px;
+        width: 85%;
+        font-weight: 600;
+        font-size: 2.5rem;
+        line-height: 3rem;
+        padding-top: 3rem;
+        padding-inline-start: 7%;
+    }
+    .imagenesHeader {
+        width: 100%;
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+    }
+    .imgSoySagy{
+        width: 360px;
+        height: 329.38px;
+        /*left: 525px;*/
+    }
+    .chatSoySagy{
+        position: relative;
+        bottom: 20%;
+        width: 320px;
+    }
+    .imgChathome{
+        display: none;
+    }
+    .imgChathomeR{
+        display:block;
+        position: absolute;
+        width: 350px;
+        height: 150px;
+        top:-4.1rem;
+        left:2%;
+    }
+    .headerText{
+        font-weight: 700;
+        font-size: 2rem;
+        left:9%;
+    }
+    .bodyText{
+        font-size: 1.5rem;
+        left:9%;
+    }
+    .buttonSoySagyTeCuento{
+        position: relative;
+        top: 0rem;
+        margin: auto;
+        right: 0;
+        height: auto;
+    }
+}

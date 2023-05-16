@@ -1,0 +1,182 @@
+.dudas{
+    width:100%;
+    height: auto;
+    background-image: url('/public/FondoDudas.png');
+    background-color: #cccccc;
+    display: flex;
+}
+.headerDudas{
+    padding-left: 7%;
+    padding-top: 3%;
+    padding-bottom: 4%;
+}
+.mainHeaderDudas{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 65px;
+    color: #FFFFFF;
+    margin-left: 6%;
+    text-align: left;
+}
+.secondHeaderDudas{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 65px;
+    color: #FFFFFF;
+    text-align: left;
+    margin-left: 6%;
+}
+.leftDudas{
+    width: 78%;
+}
+.rigthDudas{
+    float: right;
+}
+.imgSagyDudas{
+    right: 0;
+    min-width: 412px;
+}
+.imgSignalDudas{
+    float: right;
+    transition: all .5s ease;
+}
+.headDudas div{
+    align-items: flex-end;
+    margin: auto;
+    margin-right: 0;
+}
+.mainListDudas{
+    display: flex;
+    list-style: none;
+    padding-inline-start: 7%;
+}
+.firstListDudas, .secondListDudas{
+    width: 65%;
+}
+.firstListDudas a, .secondListDudas a{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 25px;
+    color: #00739D;
+}
+.firstListDudas li, .secondListDudas li{
+    list-style: none;
+    background-color: #FFFFFF;
+    border-radius: 25px;
+    padding-block: 3%;
+    padding-inline: 1%;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    color: #606060;
+    cursor: pointer;
+    margin-bottom: 4%;
+
+}
+.firstListDudas div, .secondListDudas div{
+    display: flex;
+    margin-inline: 1%;
+}
+.firstListDudas li ul, .secondListDudas li ul{
+    display: none;
+    position: relative;
+    list-style: none;
+    padding: 0;
+}
+.firstListDudas li:hover ul, .secondListDudas li:hover ul{
+    display:block
+}
+.firstListDudas li:hover .imgSignalDudas, .secondListDudas li:hover .imgSignalDudas{
+    transform: rotate(90deg);
+}
+#btnView{
+    display: none;
+}
+#labelView{
+    display: none;
+}
+.SecondDudasItem{
+    width: 35.735rem;
+}
+@media (max-width: 858px) {
+    .rigthDudas{
+        display: none;
+    }
+    .leftDudas{
+        width: 100%;
+    }
+    .headerDudas{
+        padding-left: 0%;
+    }
+    .mainHeaderDudas{
+        text-align: center;
+        margin-left: 0%;
+        padding-bottom: 2%;
+    }
+    .secondHeaderDudas{
+        text-align: center;
+        line-height: normal;
+        margin-left: 0%;
+        font-weight: 400;
+        padding-bottom: 4%
+    }
+    .mainListDudas{
+        display: block;
+        padding-inline-start: 0%;
+    }
+    .firstListDudas{
+        margin: auto;
+    }
+    .secondListDudas{
+        display: none;
+        margin: auto;
+    }
+    #labelView{
+        display: block;
+        width: 100%;
+        text-align: center;
+        font-size: 2rem;
+        color: #FFFFFF;
+        font-family: 'Poppins';
+        text-decoration: underline;
+        padding-top: 2%;
+        padding-bottom: 3%;
+        font-weight: 500;
+    }
+    
+    #btnView:checked ~ * .secondListDudas{
+        display: block;
+        margin: auto;
+    }
+
+
+
+}
+
+/**
+.mainListDudas{
+    width: 70%;
+    display: flex;
+    list-style: none;
+}
+.mainListDudas ul{
+    padding: 1%;
+}
+.secondListDudas{
+    display: none;
+    padding: 0;
+}
+.secondListDudas li{
+    list-style: none;
+    background-color: #FFFFFF;
+    margin-top: 5%;
+    border-radius: 10px;
+}
+**/

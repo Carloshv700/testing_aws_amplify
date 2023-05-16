@@ -1,0 +1,127 @@
+.Opiniones{
+    width: 100%;
+    height: 562px;
+    background: #E9F8FF;
+}
+.headerOpiniones{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 8.5rem;
+    line-height: 65px;
+    color: #008EBA;
+    text-align: center;
+    padding-block: 2.5%;
+}
+.imgOpinion4R{
+    display: none;
+}
+.imgOpinion2R{
+    display: none;
+}
+.radio{
+    display: none;
+}
+.containerOpiniones{
+position: relative;
+margin: 2% auto;
+max-width: 818px;
+}
+.slider{
+width: 100%;
+position: absolute;
+height: 0;
+padding-top: 2%;
+background-color: #E9F8FF;
+overflow: hidden;
+height: 289px;
+}
+.slide0{
+position: absolute;
+width: 100%;
+height: 100%;
+top:0;
+}
+.slide{
+opacity: 0;
+position: absolute;
+width: 100%;
+height: 100%;
+top:0;
+}
+.slide img{
+background-color:#E9F8FF;
+transition: 1.5s ease-in-out;
+}
+.dots{
+width: 100%;
+position: absolute;
+bottom: 5%;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.dots label{
+width: 15px;
+height: 15px;
+background:#64778C;
+margin: 0 7.4px;
+border-radius: 50%;
+opacity: 0.3;
+cursor: pointer;
+transition: 0.2s ease-in-out;
+}
+.dots label:hover{
+opacity: 0.7;
+}
+#radio-1:checked ~ #slide-1,
+#radio-2:checked ~ #slide-2{
+opacity: 1;
+}
+#radio-1:checked ~ .dots #label-1,
+#radio-2:checked ~ .dots #label-2{
+background-color: #008EBA;
+opacity: 1;
+}
+@media (max-width: 858px) {
+    .Opiniones{
+        height: 650px;
+    }
+    .imgOpinion2R{
+        display: block;
+    }
+    .imgOpinion4R{
+        display: block;
+    }
+    .imgOpinion2{
+        display: none;
+    }
+    .imgOpinion4{
+        display: none;
+    }
+    .slide{
+        text-align: -webkit-center;
+    }
+    .slide0{
+        text-align: -webkit-center;
+    }
+    .slider{
+        width: 100%;
+        position: absolute;
+        height: 0;
+        padding-top: 2%;
+        background-color: #E9F8FF;
+        overflow: hidden;
+        height: 55rem;
+    }
+    .slide img{
+        background-color:#E9F8FF;
+        transition: 1.5s ease-in-out;
+        width: 29.5rem;
+        height: 49.644rem;
+    }
+    .slide0 img{
+        width: 29.5rem;
+        height: 49.644rem;
+    }
+}

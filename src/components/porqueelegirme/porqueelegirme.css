@@ -1,0 +1,100 @@
+.porqueElegirme{
+    width:100%;
+    height: 74.6rem;
+    background-image: url('/public/fondoPorque.png');
+    background-color: #cccccc;
+}
+.containerHeaderPE{
+    padding-top: 3%;
+    padding-bottom: 3%;
+    width: 100%;
+}
+.headerPE{
+    width: 100%;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 5rem;
+    color: #FFFFFF;
+    text-align: center;
+}
+.containerUl{
+    width: 100%;
+    align-content: center;
+}
+ul.contenedor-item {
+    width: 100%;
+    list-style: none;
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+    padding-inline-start: 0%;
+}
+ul.contenedor-item li {
+    width: 30%;
+    margin: 0 1%;
+    position: relative;
+    overflow: hidden;
+}
+.imgBeneficio1{
+    width: 36.5rem;
+    height: 43.6rem;
+    opacity: 1;
+    z-index: 2;
+}
+.imgBeneficio1Hover{
+    width: 36.5rem;
+    height: 43.6rem;
+    opacity: 0;
+    position: absolute;
+    left: 0;
+    z-index: 1;
+    top: 35rem;
+    transition: all .5s ease;
+}
+.contenedor-item li:hover .imgBeneficio1Hover{
+    opacity: 1;
+    top: 0;
+    -webkit-transform:skew(2);
+    height: auto;
+    
+}
+
+@media (max-width: 858px) {
+    .porqueElegirme{
+        width:100%;
+        height: 134rem;
+    }
+    .headerPE{
+        font-size: 3rem;
+        padding-bottom: 10%;
+        padding-top: 5%;
+    }
+    ul.contenedor-item {
+        display: block;
+        padding-inline-start: 0%;
+    }
+    ul.contenedor-item li {
+        width: 100%;
+        margin: auto;
+        text-align: center;
+        overflow: visible;
+        padding-bottom: 10%;
+    }
+    .imgBeneficio1{
+        width: 29.5rem;
+        height: 35.3rem;
+        opacity: 1;
+        z-index: 2;
+    }
+    .imgBeneficio1Hover{
+        width: 30.5rem;
+        height: 0rem;
+        opacity: 0;
+        position: absolute;
+        z-index: 1;
+        top: 35rem;
+        transition: all .5s ease;
+        left: 10%;
+    }
+}

@@ -1,0 +1,50 @@
+.MenuRes{
+    background-color:#0DB87F;
+    width: 100%;
+    height: 81.2rem;
+}
+.topResponsive{
+    width: 100%;
+    height: 15%;
+}
+.imgExitR{
+    padding-top: 5%;
+    float: right;
+    padding-right:5%;
+}
+.listRes{
+    list-style: none;
+    padding-inline-start:0%
+}
+.itemRespoM{
+    font-size: 2rem;
+    text-align: center;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    line-height: 3rem;
+    color: white;
+    padding-bottom: 3%;
+    text-decoration: none;
+}
+.itemRespo{
+    font-size: 2rem;
+    text-align: center;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    line-height: 3rem;
+    color: white;
+    padding-bottom: 3%;
+    text-decoration: none;
+}
+.bottomResponsive{
+    padding-top: 5%;
+    text-align: center;
+}
+.imgWppR{
+    margin-left: 0%;
+}
+.imgInstagramR{
+    margin-right: 5%;
+}

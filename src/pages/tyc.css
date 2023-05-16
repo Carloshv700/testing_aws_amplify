@@ -1,0 +1,53 @@
+.ContainerTyC{
+    background: #E9F8FF;
+    width: 100%;
+    height: 100%;
+}
+.headerTyC{
+    font-size: 3rem;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    color: #00729A;
+    text-align: center;
+    padding-top: 2%;
+}
+.detallesTyC{
+    font-size: 1.5rem;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    color: #606060;
+    text-align: justify;
+    padding: 2%;
+    padding-left: 6%;
+    padding-right: 10%;
+}
+.subtituloTyC{
+    font-size: 2rem;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    color: #00729A;
+    text-align: justify;
+    padding: 1%;
+    padding-left: 6%;
+    padding-right: 10%;
+}
+.secondParrafo{
+    font-size: 1.5rem;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    color: #606060;
+    text-align: justify;
+    padding: 1%;
+    padding-left: 6%;
+    padding-right: 10%;
+}
+.boldTyC{
+    font-size: 1.5rem;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 800;
+}
