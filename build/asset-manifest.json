@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.7430a19a.css",
-    "main.js": "/static/js/main.9ea1d992.js",
+    "main.css": "/static/css/main.acc2e8b3.css",
+    "main.js": "/static/js/main.8868c050.js",
     "static/media/futur.ttf": "/static/media/futur.71d20cae1da6df8d2a23.ttf",
     "static/media/FondoDudas.png": "/static/media/FondoDudas.6e976e1f4b001dfa3aa3.png",
     "static/media/fondoPorque.png": "/static/media/fondoPorque.626020e6e2f0b68064db.png",
     "index.html": "/index.html",
-    "main.7430a19a.css.map": "/static/css/main.7430a19a.css.map",
-    "main.9ea1d992.js.map": "/static/js/main.9ea1d992.js.map"
+    "main.acc2e8b3.css.map": "/static/css/main.acc2e8b3.css.map",
+    "main.8868c050.js.map": "/static/js/main.8868c050.js.map"
   },
   "entrypoints": [
-    "static/css/main.7430a19a.css",
-    "static/js/main.9ea1d992.js"
+    "static/css/main.acc2e8b3.css",
+    "static/js/main.8868c050.js"
   ]
 }
