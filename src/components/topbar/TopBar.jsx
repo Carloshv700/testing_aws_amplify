@@ -35,7 +35,7 @@ export default function TopBar() {
                         </li>
                         <li className="topListItem">
                             {/**<Link className="linkCenter" to="/">Opiniones</Link>**/}
-                            <a className="linkCenter" href="/#SectionAliados">Aliado</a>
+                            <a className="linkCenter" href="/#SectionAliados">Aliados</a>
                         </li>
                         <li className="topListItem">
                             {/**<Link className="linkCenter" to="/">¿Dudas?</Link>**/}
