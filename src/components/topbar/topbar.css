@@ -82,11 +82,18 @@
     padding-inline: 1.5rem;
      
 }
+.topBarSagyTitle{
+    font-weight: 600;
+    font-size: 1.7rem;
+    margin-left: 6px;
+}
 .linkCenter{
     text-decoration:inherit;
     color:inherit;
     padding: 0.4em;
-    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .secondSectionTop{
     display: flex;

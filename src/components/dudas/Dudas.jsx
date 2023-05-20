@@ -18,22 +18,21 @@ export default function Dudas() {
                             <div>
                                 <img className="imgSignalDudas" src={process.env.PUBLIC_URL + 'SignalDudas.png'} alt="SignalDudas.png"/>
                             </div>
-                            
                         </div>
                         <ul className='subListFirstItem1'>
-                            <li>Sí. Puedes registrar tu empresa o la empresa en donde trabajas, tu casa, apartamento, finca o local comercial propio o arrendado.</li>
+                            <li>Sí. Puedes registrar tu empresa o la empresa donde trabajas si la factura de servicios públicos es de al menos $1'500,000 mensual.</li>
                         </ul>
                     </li>
                     
                     <li className='firstListitem3'>
                         <div className='headDudas'>
-                            <a className='SecondDudasItem'>¿Cuánto vale el servicio de Sagy?</a>
+                            <a className='SecondDudasItem'>¿Cuánto vale el servicio de <span className='dudasSagyTitle'>Sagy</span>?</a>
                             <div>
                                 <img className="imgSignalDudas" src={process.env.PUBLIC_URL + 'SignalDudas.png'} alt="SignalDudas.png"/>
                             </div>
                         </div>
                         <ul className='subListFirstItem3'>
-                            <li>Trabajamos por resultados. Nuestra remuneración corresponde al 40% del ahorro que te generemos. Es decir, con el mismo ahorro tú nos recompensas.</li>
+                            <li>Trabajamos por resultados. Nuestra remuneración corresponde a un porcentaje del ahorro que te generemos. Si no ahorras, no pagas.</li>
                         </ul>
                     </li>
                     
@@ -51,7 +50,7 @@ export default function Dudas() {
 
                     <li className='secondListitem7'>
                         <div className='headDudas'>
-                            <a>¿Cuándo debo pagar a Sagy por su servicio?</a>
+                            <a>¿Cuándo debo pagar a <span className='dudasSagyTitle'>Sagy</span> por su servicio?</a>
                             <div>
                                 <img className="imgSignalDudas" src={process.env.PUBLIC_URL + 'SignalDudas.png'} alt="SignalDudas.png"/>
                             </div>
@@ -72,7 +71,7 @@ export default function Dudas() {
                             </div>
                         </div>
                         <ul className='subListSecondItem1'>
-                            <li>Ingresa a www.sagy.com.co/ahorro</li>
+                            <li>Diligencia el siguiente formulario y uno de nuestros asesores se pondrá en contacto contigo. <a href='https://forms.office.com/r/77WZvtLqsy' target='_blank_'>Clic aquí</a></li>
                         </ul>
                     </li>
                     <li className='secondListitem2'>

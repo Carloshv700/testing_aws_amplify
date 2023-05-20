@@ -5,7 +5,7 @@ export default function Pertenecen() {
   return (
     <div className='containerEmpresas' id='SectionAliados'>
         <div className='headEmpresas'>
-            <h1 className='headerEmpresas'>Empresas que confían en nosotros</h1>
+            <h1 className='headerEmpresas'>Confían en nosotros</h1>
         </div>
         <div className='carrusel-contenido' id='carrusel-contenido'>
             <ul>

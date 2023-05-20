@@ -96,6 +96,10 @@
 .firstListDudas li:hover .imgSignalDudas, .secondListDudas li:hover .imgSignalDudas{
     transform: rotate(90deg);
 }
+.dudasSagyTitle{
+    font-weight: 700;
+    font-size: 20px;
+}
 #btnView{
     display: none;
 }

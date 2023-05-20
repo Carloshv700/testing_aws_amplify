@@ -41,7 +41,7 @@ export default function ComoTeAyudo() {
       <div className='containerFinal'>
           <h1 className='headerFinal'>¿Quieres que gestionemos</h1>
           <p className='headerSecond'>tus servicios públicos? <br></br></p>
-          <button className="buttonClickAquiCH"><a className="link"  href="https://wa.me/573243205821" target="_blank">Haz clic aquí</a></button>
+          <button className="buttonClickAquiCH"><a className="link"  href="https://forms.office.com/r/77WZvtLqsy" target="_blank">Haz clic aquí</a></button>
       </div>
       
     </div>

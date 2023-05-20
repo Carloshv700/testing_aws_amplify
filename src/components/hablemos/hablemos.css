@@ -16,7 +16,6 @@
     text-align: left;
     align-self: center;
 }
-
 .mainHeaderHablemos{
     font-family: 'Poppins';
     font-style: normal;
@@ -54,6 +53,10 @@
     display: flex;
     width: 20rem;
 
+}
+.SagyTitleHablemos{
+    font-weight: 700;
+    font-size: 18px;
 }
 .wpp{
     float: left;

@@ -2,7 +2,6 @@
     width: 100%;
     height: 61rem;
     background: #008EBA;
-
 }
 .contenedorSoySagy{
     display: flex;
@@ -24,9 +23,9 @@
 .questionSoySagy{
     min-height: 45rem;
     font-family: 'Poppins';
-    font-weight: 540;
-    font-size: 5rem;
-    line-height: 5.5rem;
+    font-weight: 600;
+    font-size: 4rem;
+    line-height: 6rem;
     color: #FFFFFF;
 }
 .chatSoySagy{
@@ -36,10 +35,14 @@
     color: #00729A;
     bottom: 20%;
 }
+.SagyTitle{
+    font-weight: 700;
+    font-size: 30px;
+}
 .headerText{
     position: relative;
     font-family: 'Poppins';
-    font-weight: 700;
+    font-weight: 500;
     font-size: 30px;
     line-height: 100%;
     left:15%;

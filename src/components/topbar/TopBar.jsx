@@ -23,7 +23,7 @@ export default function TopBar() {
                     <ul className="topList">
                         <li className="topListItem">
                             {/**<Link className="linkCenter" to="/SoySagySect">Soy Sagy</Link>**/}
-                            <a className="linkCenter" href="/#SectionSoySagy">Soy Sagy</a>
+                            <a className="linkCenter" href="/#SectionSoySagy">Soy <span className="topBarSagyTitle">Sagy</span></a>
                         </li>
                         <li className="topListItem">
                             {/**<Link className="linkCenter" to="/">¿Cómo te ayudamos?</Link>**/}
@@ -50,7 +50,7 @@ export default function TopBar() {
                 <div className="topRight">{
                         <ul className="topListR">
                             <li className="topListItemRButton">
-                                <button className="topListAhorremosButton"><a className="link"  href="https://wa.me/573243205821" target="_blank">Ahorremos</a></button>
+                                <button className="topListAhorremosButton"><a className="link"  href="https://forms.office.com/r/77WZvtLqsy" target="_blank">Ahorremos</a></button>
                             </li>
                             <li className="topListItemR">
                                 <a href="https://www.instagram.com/sagy.co/?igshid=YmMyMTA2M2Y%3D" target="_blank"><img className="topIcon" src={process.env.PUBLIC_URL + 'InsFooter.png'} alt="IgLogoFooter.png"/></a>
